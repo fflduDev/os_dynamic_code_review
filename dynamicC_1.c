@@ -1,28 +1,4 @@
-Requirements
-
-Prompt the user to enter a string (maximum 100 characters)
-Use malloc() to dynamically allocate memory for a reversed copy of the string
-
-Calculate the correct size needed using strlen()
-Remember to add 1 for the null terminator
-
-
-Copy the original string into the allocated memory in reverse order
-Print both the original string and the reversed string
-Free the allocated memory before the program exits
-The program should handle empty strings gracefully
-
-Example Output
-Enter a string: hello
-Original: hello
-Reversed: olleh
-Enter a string: Operating Systems
-Original: Operating Systems
-Reversed: smetsyS gnitarepO
-
------
-
-
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
